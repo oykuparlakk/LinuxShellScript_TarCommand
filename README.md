@@ -21,8 +21,6 @@ Tar komutunun açılımı **Tape Archive** dir.Bir veya daha fazla dosyanın sı
 Kullanıcı tarafından girilen dosya yolunu alarak dosyaları `.tar` ve `tar.gz` formatına dönüştürür. Sıkıştırılmış olan bu dosyaların boyutunu ekrana yazdırır.
 ## Nasıl Kullanılır?
 
-- Yanlış bir yol girmeniz durumunda kontrol edip tekrar giriş yapmaya yönlendirilirsiniz.
-![Capture](https://user-images.githubusercontent.com/56317041/149416661-ea35a43b-ce1b-4b47-9bc7-646fac9c24f4.PNG)
 
  `bash program.sh` diyerek projeyi çalıştırdığımızda .tar,.tar.gz ve boyut öğrenme şeklinde seçenekler karşımıza çıkıyor.            | Sıkıştırmak istediğiniz dosya yolunu aşağıdaki gibi girip dosyanızı başarıyla sıkıştırabilirsiniz.
 :-------------------------:|:-------------------------:
