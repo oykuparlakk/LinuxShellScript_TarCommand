@@ -3,10 +3,15 @@
 Tar komutunun açılımı **Tape Archive** dir.Bir veya daha fazla dosyanın sıkıştırılması için kullanılır.Çoğu durumda tar komutuyla sıkıştırılma yapıldıktan sonra .tar uzantılı dosya oluşur. Daha ileri sıkıştırma ise gzip kullanılarak yapılır. Sonuç olarak .tar.gz uzantılı dosya oluşur.
 ## Tar Komutu Parametreleri
 **-c** Create: tar dosyasının yaratılacağını belirtir.
+
 **-x** Extract: bir tar dosyasının açılacağını belirtir.
+
 **-t** Tabel of contents: bir tar dosyasının iceriğinin listeleneceğini belirtir.
+
 **-v** Verbose: bir tar dosyasının yaratılırken ya da açılırken elden geçen dosyaların isimlerini ekrana listelemek icin kullanılır.
+
 **-z** tar dosyasinin sıkıştırılmış bir dosya olarak kullanılacağını belirtir.Gunzip kullanılacaktır.
+
 **-f** File: yaratılacak,açılacak ya da içindekiler tablosu listelenecek tar dosyasının adının komut satırında verileceğini belirtir.
 ## Gerekli Kurulumlar
 - Terminali açtığınızda `sudo apt-get install whiptail` yazarak whiptail kurulumu yapmalısınız.
@@ -17,5 +22,5 @@ Kullanıcı tarafından girilen dosya yolunu alarak dosyaları `.tar` ve `tar.gz
 ## Nasıl Kullanılır?
 - `bash program.sh` diyerek projeyi çalıştırdığımızda .tar,.tar.gz ve boyut öğrenme şeklinde seçenekler karşımıza çıkıyor.
 ![Capture](https://user-images.githubusercontent.com/56317041/149415833-d116b7ff-14df-4682-8238-7f904a04dfb5.PNG)
--Sıkıştırmak istediğiniz dosya yolunu aşağıdaki gibi girip dosyanızı başarıyla sıkıştırabilirsiniz.
+- Sıkıştırmak istediğiniz dosya yolunu aşağıdaki gibi girip dosyanızı başarıyla sıkıştırabilirsiniz.
 ![Capture](https://user-images.githubusercontent.com/56317041/149416165-05bd0046-40d6-41cb-849c-adc9721f25ec.PNG)
